@@ -90,7 +90,7 @@ void UpdateCalc()
         cIsActive = false;
     }
 
-    if(GuiButton(CalculateRec, "Calculate ")){
+    if(GuiButton(CalculateRec, "Calculate")){
         CalculateRoots(a, b, c, root1, root2);
         CalculateVertex(a, b, yvertex, xvertex);
         sprintf(Root1Char, "%f", root1);
