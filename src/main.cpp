@@ -113,18 +113,18 @@ void UpdateCalc()
 
 void CalculateRoots(float a, float b, float c, float &root1, float &root2)
 {
-    float discriminator = pow(b, 2) - 4*a*c;
-    if(discriminator >= 0){
-        root1 = (-b + sqrt(discriminator)) / 2*a;
-        root2 = (-b - sqrt(discriminator)) / 2*a;
+    float discriminant = pow(b, 2) - 4*a*c;
+    if(discriminant >= 0){
+        root1 = (-b + sqrt(discriminant)) / 2*a;
+        root2 = (-b - sqrt(discriminant)) / 2*a;
     }
 }
 
 void CalculateVertex(float a, float b, float &yvertex, float &xvertex)
 {
-    float discriminator = pow(b, 2) - 4*a*c;
-    // if(discriminator >= 0){
-    yvertex = -(discriminator) / 4*a;
+    float discriminant = pow(b, 2) - 4*a*c;
+    // if(discriminant >= 0){
+    yvertex = -(discriminant) / 4*a;
     // }
     xvertex = -b/2*a;
 }
