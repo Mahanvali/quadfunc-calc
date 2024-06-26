@@ -35,6 +35,8 @@ int main(){
         UpdateCalc();
         DrawCalc();
     }
+    CloseWindow();
+    return 0;
 }
 
 void DrawCalc()
